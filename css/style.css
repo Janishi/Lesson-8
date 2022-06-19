@@ -1,0 +1,139 @@
+
+/* header styles */
+body{
+    padding-top: 20px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+.ul-flex{
+    display: flex;
+    
+    
+    width: 300px;
+
+}
+.nav-list{
+    font-family: 'Lato bold';
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+.nav1{
+    margin-right: 20px;
+}
+.nav2{
+    margin-right: 20px;;
+
+}
+.nav3{
+    margin-right: 20px;
+}
+.nav4{
+    margin-right: 20px;
+}
+.wrapper2{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+.left-block-p{
+    font-family: 'Lato bold';
+    font-size: 50px;
+    width: 400px;
+}
+.left-block-p2{
+    font-family: 'Roboto';
+    font-size: 14px;
+    width: 400px;
+    margin-top: 30px;
+}
+.left-block-button{
+    width: 200px;
+    height: 50px;
+    background-color: #3D37F1;
+    border-radius: 25px;
+    margin-top: 100px;
+    position: relative;
+}
+.icon-1{
+    position: absolute;
+    top: 10px;
+    left: 35px;
+}
+.left-block-button-p{
+    font-family: 'Roboto';
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+.sec2-left-block{
+    margin-top: 230px;
+}
+.right-image-div{
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.image-right{
+    width: 100%;
+}
+
+/* section 2 */
+
+.wrapper3{
+    width: 680px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.row1-boxes{
+    width: 210px;
+    height: 250px;
+    background-color: green;
+    position: relative;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.sec2-text-div{
+    width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2-text-h3{
+    font-family: 'Lato bold';
+    font-size: 15px;
+    color: #3D37F1;
+    text-transform: uppercase;
+}
+.sec2-text-p1{
+    font-family: 'Lato regular';
+    font-size: 25px;
+    color: #5A5454;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sec2-text-p2{
+    font-family: 'Roboto';
+    color: #747474;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* row1 boxes */
+
+.box1-icon{
+    width: 45px;
+    position: absolute;
+}
