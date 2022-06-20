@@ -151,16 +151,17 @@ body{
 .row1-box1-button{
     width: 90px;
     height: 30px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     border-radius: 30px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid white;
 }
 .row1-box1-button-p{
     font-family: 'Roboto';
-    color:#4B647E;
+    color: red;
     font-size: 12px;
 }
 .box-2{
@@ -180,4 +181,10 @@ body{
 }
 .box-6{
     background-color: #FF8088;
+}
+.row1-box1-button:hover{
+    background-color: grey;
+}
+.row1-box1-button-p:hover{
+    color: white;
 }
